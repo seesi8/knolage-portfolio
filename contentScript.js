@@ -1,7 +1,13 @@
+function hi(){
+  console.log("hi")
+}
 
-console.log("things")
-console.log(tab)
+
+console.log(config)
 if (typeof init === 'undefined') {
+
+
+
   const init = function () {
     const injectElement = document.createElement('div');
     injectElement.className = 'knoldge button';
